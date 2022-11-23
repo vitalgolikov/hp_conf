@@ -1,1 +1,62 @@
-
+gvrp
+logging 10.153.29.34
+timesync sntp
+sntp unicast
+sntp server priority 1 10.153.30.1
+sntp server priority 2 10.153.30.2
+snmp-server community "public" unrestricted
+loop-protect disable-timer 300
+no telnet-server
+spanning-tree
+spanning-tree 1 bpdu-protection
+spanning-tree 2 bpdu-protection
+spanning-tree 3 bpdu-protection
+spanning-tree 4 bpdu-protection
+spanning-tree 5 bpdu-protection
+spanning-tree 6 bpdu-protection
+spanning-tree 7 bpdu-protection
+spanning-tree 8 bpdu-protection
+spanning-tree 9 bpdu-protection
+spanning-tree 10 bpdu-protection
+spanning-tree 11 bpdu-protection
+spanning-tree 12 bpdu-protection
+spanning-tree 13 bpdu-protection
+spanning-tree 14 bpdu-protection
+spanning-tree 15 bpdu-protection
+spanning-tree 16 bpdu-protection
+spanning-tree 17 bpdu-protection
+spanning-tree 18 bpdu-protection
+spanning-tree 19 bpdu-protection
+spanning-tree 20 bpdu-protection
+spanning-tree 21 bpdu-protection
+spanning-tree 22 bpdu-protection
+spanning-tree 23 bpdu-protection
+spanning-tree 24 bpdu-protection
+spanning-tree 25 bpdu-protection
+spanning-tree 26 bpdu-protection
+spanning-tree 27 bpdu-protection
+spanning-tree 28 bpdu-protection
+spanning-tree 29 bpdu-protection
+spanning-tree 30 bpdu-protection
+spanning-tree 31 bpdu-protection
+spanning-tree 32 bpdu-protection
+spanning-tree 33 bpdu-protection
+spanning-tree 34 bpdu-protection
+spanning-tree 35 bpdu-protection
+spanning-tree 36 bpdu-protection
+spanning-tree 37 bpdu-protection
+spanning-tree 38 bpdu-protection
+spanning-tree 39 bpdu-protection
+spanning-tree 40 bpdu-protection
+spanning-tree 41 bpdu-protection
+spanning-tree 42 bpdu-protection
+spanning-tree 43 bpdu-protection
+spanning-tree 44 bpdu-protection
+spanning-tree 45 bpdu-protection
+spanning-tree 46 bpdu-protection
+spanning-tree config-name "vrrp"
+spanning-tree config-revision 1
+spanning-tree instance 1 vlan 1-1500
+spanning-tree trap errant-bpdu
+spanning-tree bpdu-protection-timeout 300
+no tftp server
